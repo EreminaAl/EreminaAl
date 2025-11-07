@@ -1,0 +1,6 @@
+s = input("Введите текст: ")
+word_to_find = input("Введите слово для поиска: ")
+s_lower = s.lower()
+word_to_find_lower = word_to_find.lower()
+count = s_lower.count(word_to_find_lower)
+print(f"Слово '{word_to_find}' встречается в тексте {count} раз(а).")
